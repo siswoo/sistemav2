@@ -742,7 +742,7 @@ CREATE TABLE paginas (
 	PRIMARY KEY (id)
 ); ALTER TABLE paginas CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-INSERT INTO paginas (nombre,usuario_pagos,usuario_cuenta,url,correo,clave,cuentas_maximas,id_moneda,guion_bajo,id_empresa) VALUES 
+INSERT INTO paginas (nombre,usuario_pagos,usuario_cuenta,url,correo,clave,cuentas_maximas,id_moneda,guion_bajo,id_empresa,estatus) VALUES 
 ('Chaturbate', 1,0,1,0,0,1,3,1,1,1);
 
 DROP TABLE IF EXISTS cuentas_usuarios;
